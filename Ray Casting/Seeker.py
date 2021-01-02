@@ -94,7 +94,7 @@ class Ray:
 			end = ix
 			pygame.draw.line(win,(255,255,255),ix,ix,8)
 		start = (self.vector.x,self.vector.y)
-		pygame.draw.line(win,(255,255,0),start,end,2)
+		pygame.draw.line(win,(150,150,0),start,end,2)
 
 
 class Wall:
