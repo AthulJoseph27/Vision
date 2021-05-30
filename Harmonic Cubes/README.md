@@ -2,4 +2,6 @@
 
 - Cube under Simple Harmonic Motion.
 
-![alt text](assets/HarmonicCubes.gif)
+<p align="center">
+<image src="assets/HarmonicCubes.gif" width="500"/>
+</p>
