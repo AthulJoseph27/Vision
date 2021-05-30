@@ -3,10 +3,10 @@
 - The Mandelbrot set is the set of complex numbers c for which the function f(z) = z²+c does not diverge when iterated from z = 0.
 
   <p align="center">
-  <image src="assets/M2.png" width="200"/>
-  <image src="assets/M1.png" width="200"/>
+  <image src="assets/M2.png"/>
+  <image src="assets/M1.png"/>
   <br>
-    <image src="assets/M3.png" width="300"/>
+    <image src="assets/M3.png"/>
     </p>
   <br>
 
