@@ -3,7 +3,7 @@
 - Visualization using python.
 
 <p align="center">
-<image src="Harmonic Cubes/assets/HarmonicCubes.gif" width="500"/>
-<image src="Mandelbrot Set/assets/M3.png" width="500"/>
-<image src="Ray Casting/assets/SK1.gif" width="500"/>
+<image src="Harmonic Cubes/assets/HarmonicCubes.gif" width="250"/>
+<image src="Mandelbrot Set/assets/M3.png" width="250"/>
+<image src="Ray Casting/assets/SK1.gif" width="250"/>
 </p>
