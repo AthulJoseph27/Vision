@@ -118,8 +118,8 @@ for i in range(20):
 # walls.append(Wall(Vector(100,100,0,200)))
 # walls[-1].draw(win)
 
-for a in range(0,361):
-	ray = Ray(Vector(350,350,a,700 * (2**0.5)))
+for a in range(0,14401):
+	ray = Ray(Vector(350,350,a/40,700 * (2**0.5)))
 	ray.draw(win,walls)
 
 
@@ -142,8 +142,8 @@ while True:
 				for i in range(len(walls)):
 					walls[i].draw(win)
 				mx,my = pygame.mouse.get_pos()
-				for a in range(0,361):
-					ray = Ray(Vector(mx,my,a,990))
+				for a in range(0,14401):
+					ray = Ray(Vector(mx,my,a/40,990))
 					ray.draw(win,walls)
 	
 	if exit:

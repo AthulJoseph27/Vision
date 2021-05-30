@@ -5,8 +5,8 @@ pygame.init()
 
 pygame.display.set_caption('Mandelbrot Set')
 
-WIDTH = 1225
-HEIGHT = 700
+WIDTH = 800
+HEIGHT = 800
 win = pygame.display.set_mode((WIDTH,HEIGHT))
 
 win.fill((0,31,121))
@@ -36,7 +36,7 @@ screen = [[maxNoOfIteration for i in range(WIDTH)] for j in range(HEIGHT)]
 
 for y in range(HEIGHT):
 	for x in range(WIDTH):
-		cn = (x/WIDTH * 3.5 - 2.5) + (y/HEIGHT * 2 - 1) * 1j
+		cn = (x/WIDTH * 2.7 - 2.1) + (y/HEIGHT * 2.7 - 1.5) * 1j
 		f = 0
 		belongs = True
 		for i in range(maxNoOfIteration):
